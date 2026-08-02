@@ -1,0 +1,33 @@
+PUT YOUR PHOTOS AND VIDEOS HERE 📸
+====================================
+
+This folder is where all the images for the page live.
+
+1. Drop your photos here. Supported: .jpg, .jpeg, .png (keep them under ~2MB each)
+
+2. VIDEOS are supported too! Drop a short clip here as `vid1.mp4`
+   (or .webm). It will autoplay muted and loop in the big media tile -
+   perfect for a memory clip. Keep clips short and small (<10MB) so the
+   page loads fast. Supported: .mp4, .webm
+
+3. Open index.html and find the "Our Memories" section (search for
+   "add your photo here"). Each placeholder has instructions right above
+   it. Replace them with <img> tags, like:
+
+     <img src="photos/my-photo.jpg"
+          style="width:100%;height:100%;object-fit:cover;border-radius:20px;"
+          alt="a memory of us">
+
+   The video tile already points at photos/vid1.mp4 -just drop your
+   file there (or change the src attribute to your own filename).
+
+Tip: to make sure your photos aren't rotated weirdly, use straight
+vertical photos for the square tiles and a wide/landscape photo for the
+big featured tile.
+
+INCLUDED MEDIA 📝
+The pic1-5.jpg and vid1.mp4 files shipped with this page are
+royalty-free images/videos from Pixabay (Pixabay Content License:
+https://pixabay.com/service/license-summary/). See
+THIRD_PARTY_NOTICES.md for the full credits table. Replace them with
+your own photos whenever you like -just keep the same filenames.
